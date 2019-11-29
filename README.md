@@ -27,12 +27,12 @@ The data is broken into two files identity and transaction, which are joined by 
 - test_{transaction, identity}.csv - the test set (you must predict the isFraud value for these observations)
 - sample_submission.csv - a sample submission file in the correct format
 
-### Model Tried
+## Model Tried
 - CatBoost Regressor
 - LightGBM Regressor
 - Ensembling the results of CatBoost and LighGBM
 
-### Private Score
+## Private Score
 Area under ROC - 0.927892
 
 https://www.kaggle.com/c/ieee-fraud-detection
